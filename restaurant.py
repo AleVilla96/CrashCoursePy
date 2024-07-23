@@ -1,10 +1,11 @@
 class Restaurant:
-    '''
-    Initialization method
+    """
+    Models aspects of a restaurant
     Name, Cuisine, Status, Clients served
-    '''
+    """
 
     def __init__(self, res_name, res_cuisine):
+        """Initialize the restaurant's attributes"""
         self.res_name = res_name
         self.res_cuisine = res_cuisine
         self.isOpen = False
@@ -43,3 +44,4 @@ res1.set_number_served(44)
 res1.increment_number_served(2)
 print(f"Served: {res1.number_served}")
 
+print("\n")

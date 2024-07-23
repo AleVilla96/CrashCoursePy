@@ -33,3 +33,5 @@ usr1.increment_login_attempts()
 print(f"Login Attempts: {usr1.login_attempts}")
 usr1.reset_ogin_attempts()
 print(f"Login Attempts: {usr1.login_attempts}")
+
+print("\n")
