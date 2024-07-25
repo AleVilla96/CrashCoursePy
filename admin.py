@@ -1,4 +1,5 @@
 # 9.7/9.8
+"""A class that can be used to represent an Administrator, inherits from the User class"""
 from users import User
 
 
